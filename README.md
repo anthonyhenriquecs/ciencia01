@@ -21,3 +21,17 @@ df.dtypes
 #ultimas 5 linhas
 df.tail()
 
+#Retorna informações estatisticas sobre o conjunto de dados
+#count = total de linhas
+#mean = media
+#std = desvio padrao
+#min = valor minimo
+#  quartil
+#25% =
+#50% =
+#75% = 
+
+max = valor maximo
+df.describe()
+
+
