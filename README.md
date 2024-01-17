@@ -13,4 +13,7 @@ df.head()
 #Total de linhas e colunas
 
 df.shape
-
+#somente colunas
+df.columns
+#somente o tipo
+df.dtypes
