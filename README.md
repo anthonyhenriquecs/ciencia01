@@ -34,4 +34,18 @@ df.tail()
 max = valor maximo
 df.describe()
 
+#Observando os continentes da nossa base e fazendo filtros
+df["Continente"].unique()
+#filtrando
+Oceania = df.loc[df["Continente"] == "Oceania"]
+Oceania.head
+#Digamos que queira agrupar por continente mas quero trazer quantos paises tem para cada continente.
+df.groupby("Continente")["Pais"].nunique()
+
+|#Qual a expectativa de vida media por ano em nossos dados?
+df.groupby("Ano")["Expectativa_vida"].mean()
+
+#media do PIB
+df["PIB"].mean()
+
 
