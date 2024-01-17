@@ -3,6 +3,7 @@
 import pandas as pd
 
 df = pd.read_csv("/content/drive/MyDrive/Cusro_Python_Pandas_Digital_Innovation-master/datasets/Gapminder.csv", error_bad_lines=False, sep=";")
+#retorna as 5 primeiras linhas
 df.head()
 
 #Alterando o nome da tabela para portugues
@@ -17,3 +18,6 @@ df.shape
 df.columns
 #somente o tipo
 df.dtypes
+#ultimas 5 linhas
+df.tail()
+
