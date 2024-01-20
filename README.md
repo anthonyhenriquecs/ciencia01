@@ -49,5 +49,3 @@ df.groupby("Ano")["Expectativa_vida"].mean()
 df["PIB"].mean()
 #como soma o PIB?
 df["PIB"].sum()
-
-
